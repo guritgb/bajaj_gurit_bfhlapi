@@ -110,13 +110,7 @@ The API includes comprehensive error handling:
 - Descriptive error messages
 - Try-catch blocks for graceful error handling
 
-## Deployment
 
-### Railway
-1. Connect your GitHub repository to Railway
-2. Railway will automatically detect the Node.js app
-3. Set environment variables if needed
-4. Deploy
 
 ### Render
 1. Connect your GitHub repository to Render
@@ -124,15 +118,6 @@ The API includes comprehensive error handling:
 3. Set build command: `npm install`
 4. Set start command: `npm start`
 5. Deploy
-
-### Vercel
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run `vercel` in your project directory
-3. Follow the prompts to deploy
-
-## Environment Variables
-
-- `PORT`: Server port (default: 3000)
 
 ## Customization
 
